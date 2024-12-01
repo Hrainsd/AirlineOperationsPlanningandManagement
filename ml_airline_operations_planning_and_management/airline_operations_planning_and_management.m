@@ -2781,27 +2781,3 @@ ResultValues = x(find(x ~= 0));
 Result = [ResultIndexes, ResultValues]
 
 z = f * x
-
-%%
-% 12.xxx
-
-clc;clear;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
