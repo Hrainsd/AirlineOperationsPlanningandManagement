@@ -3,7 +3,7 @@ from scipy.io import loadmat
 from pulp import LpProblem, LpMinimize, LpVariable, lpSum, LpStatus, value
 
 # 读取 .mat 文件
-data = loadmat(r"D:\Matlab\Shu_Xue_Jian_Mo\AO\intlinprog参数.mat")
+data = loadmat(r"D:\Matlab\Shu_Xue_Jian_Mo\AO\intlinprog_params.mat")
 
 # 提取数据
 f_LunBan = data['f_LunBan'].flatten()  # 目标函数系数
